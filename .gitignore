@@ -1,0 +1,24 @@
+# machine-specific / regenerable
+.venv/
+__pycache__/
+*.pyc
+report/_build/
+report/figures/
+
+# raw recordings (large; videos show people and the room)
+data/episodes/
+data/sidebyside*
+data/runs_bak/
+
+# camera-specific calibration written by the tools
+vision/table_dot.json
+tools/red_dot.json
+
+# old Turkish report (kept locally, no longer regenerated)
+Rapor.docx
+Rapor.pdf
+RAPOR.md
+
+# IDE
+.theia/
+.vscode/
